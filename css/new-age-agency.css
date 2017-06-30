@@ -576,6 +576,14 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
 }
+
+.program-section h4 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-transform: none;
+  font-weight: 700;
+}
+
 aside.clients img {
   margin: 50px auto;
 }

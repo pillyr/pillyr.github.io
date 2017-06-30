@@ -27,8 +27,7 @@
     <link rel="stylesheet" href="css/jquery.bxslider.css">
 
     <!-- Theme CSS -->
-    <link href="css/new-age.css" rel="stylesheet">
-    <link href="css/new-age-agency.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,126 +37,6 @@
     <![endif]-->
     
     <style>
-
-    /* Box Shadow for Carousel
-    .item:before {
-    -webkit-box-shadow: inset 0 0 0 60rem rgba(0, 0, 0, 0.4);
-    box-shadow: inset 0 0 0 60rem rgba(0, 0, 0, 0.4);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    }*/
-
-        }
-    .hero-carousel {
-      position: relative;
-      width: 100%;
-      min-height: auto;
-      overflow-y: hidden;
-      background: url("../img/citypattern.png"), #00B5AD;
-      /* fallback for old browsers */
-      background: url("../img/citypattern.png"), -webkit-linear-gradient(to left, #00B5AD, #f76e73);
-      /* Chrome 10-25, Safari 5.1-6 */
-      background: url("../img/citypattern.png"), linear-gradient(to left, #00B5AD, #f76e73);
-      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      color: white;
-    }
-
-    .hero-carousel .header-content {
-      text-align: center;
-      padding: 150px 0 50px;
-      position: relative;
-    }
-    .hero-carousel .header-content .header-content-inner {
-      position: relative;
-      max-width: 500px;
-      margin: 0 auto;
-    }
-    .hero-carousel .header-content .header-content-inner h1 {
-      margin-top: 0;
-      margin-bottom: 30px;
-      font-size: 30px;
-    }
-    .hero-carousel .header-content .header-content-inner .list-badges {
-      margin-bottom: 25px;
-    }
-    .hero-carousel .header-content .header-content-inner .list-badges img {
-      height: 50px;
-      margin-bottom: 25px;
-    }
-    .hero-carousel .device-container {
-      max-width: 300px;
-      margin: 0 auto 100px;
-    }
-    .hero-carousel .device-container .screen img {
-      border-radius: 3px;
-    }
-    @media (min-width: 768px) {
-      .hero-carousel {
-        min-height: 100%;
-      }
-      .hero-carousel .header-content {
-        text-align: left;
-        padding: 0;
-        height: 100vh;
-      }
-      .hero-carousel .header-content .header-content-inner {
-        max-width: none;
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-      .hero-carousel .header-content .header-content-inner h1 {
-        font-size: 35px;
-      }
-      .hero-carousel .device-container {
-        max-width: none;
-        max-height: calc(0vh);
-        margin: 100px auto 0;
-      }
-    }
-    @media (min-width: 992px) {
-      .hero-carousel .header-content .header-content-inner h1 {
-        font-size: 50px;
-      }
-    }
-
-    footer {
-        padding: 50px 0;
-    }
-
-    .contact-button, .partner-icon{
-        padding: 0px 0px 50px 0px;
-    }
-
-
-    #donate-button {
-        font-weight: 900; 
-        font-style: normal; 
-        font-size: 14px;
-    }
-
-    .text-left {
-        text-align: left;
-    }
-
-    #macbook {
-        margin-top: 75px;
-    }
-    
-    .hr-standard {
-        margin-bottom: 40px;
-    }
-
-    .hr-mockup {
-        margin-top: 90px; 
-        border-color: rgba(34, 34, 34, 0.1);"
-    }
-
     </style>
 
 </head>
@@ -168,10 +47,10 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="border-color: #fff;">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" style="font-weight:700;"><span><img src="img/logos/TPFlogo.png" alt="" style="max-height:30px; margin-top:-4px;"></span>
+                <a class="navbar-brand page-scroll" href="#page-top"><span><img class="nav-logo" src="img/logos/TPFlogo.png" alt=""></span>
                 &nbsp;The Pillyr Foundation
                 </a>
             </div>
@@ -210,8 +89,8 @@
                 <div class="col-sm-7">
                     <div class="header-content">
                         <div class="header-content-inner">
-                            <h1 style="max-width: 550px;">Atlanta's future is in our hands. Join us in making our city's neighborhoods more livable for all.</h1>
-                            <a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free</a>
+                            <h1 class="hero-h1">Atlanta's future is in our hands. Join us in making our city's neighborhoods more livable for all. Coming <strong>Summer 2017.</strong></h1>
+                            <a href="#download" class="btn btn-outline btn-xl page-scroll">Join our Mailing List</a>
                         </div>
                     </div>
                 </div>
@@ -234,9 +113,15 @@
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
+    <!-- Projects Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="display-3" style="margin-bottom: 100px;"><strong>The Pillyr Foundation</strong><em> is committed to deliver good urbanism projects to Atlanta's neighborhoods and public spaces."</em></h3>
+                    <hr class="hr-standard">
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Projects & Campaigns</h2>
@@ -244,7 +129,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 portfolio-item">
+                <div class="col-lg-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="ribbon-wrapper-green"><div class="ribbon-green">Placemaking</div></div>
                         <div class="portfolio-hover">
@@ -252,12 +137,29 @@
                                 <i class="glyphicon glyphicon-fullscreen fa-2x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/operationpitstop/pic.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/operationpitstop/image2.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Project 001 - Operation Pit Stop</h4>
-                        <p class="text-muted">Tactical Urbanism</p>
+                        <p class="text-muted">Tactical Urbanism &nbsp;|&nbsp; June 2017</p>
                     </div>
+                </div>
+                <div class="col-lg-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="ribbon-wrapper-green"><div class="ribbon-green">Mobility</div></div>
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="glyphicon glyphicon-fullscreen fa-2x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/002/atlmade.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Project 002 - Coming Soon</h4>
+                        <p class="text-muted">Mobility &nbsp;|&nbsp; Summer 2017</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 portfolio-item">
                 </div>
             </div>
         </div>
@@ -274,61 +176,73 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/icons/horticulture.png" class="img-responsive img-circle" alt="">
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>-->
-                    </span>
-                    <h4 class="service-heading">Horticulture</h4>
-                    <p class="text-muted text-left">Beyond community gardens, urban farms, and farmers markets, we propose adding vertical wall gardens to the mix for development across Atlanta's neighborhoods.</p>
+                    <div class="program-section">
+                        <span class="fa-stack fa-4x">
+                            <img src="img/icons/horticulture.png" class="img-responsive img-circle" alt="">
+                            <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>-->
+                        </span>
+                        <h4>Horticulture</h4>
+                        <p class="text-muted text-left">Beyond community gardens, urban farms, and farmers markets, we propose adding vertical wall gardens to the mix for development across Atlanta's neighborhoods.</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/icons/mobility.png" class="img-responsive img-circle" alt="">
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>-->
-                    </span>
-                    <h4 class="service-heading">Mobility</h4>
-                    <p class="text-muted text-left">It is in the city’s best interests to support alternative mobility that encourages cycling and usage of public transit services. Our role is to provide small “amenities” to these networks that will improve the experience and safety for all.</p>
+                    <div class="program-section">
+                        <span class="fa-stack fa-4x">
+                            <img src="img/icons/mobility.png" class="img-responsive img-circle" alt="">
+                            <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>-->
+                        </span>
+                        <h4>Mobility</h4>
+                        <p class="text-muted text-left">It is in the city’s best interests to support alternative mobility that encourages cycling and usage of public transit services. Our role is to provide small “amenities” to these networks that will improve the experience and safety for all.</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/icons/placemaking.png" class="img-responsive img-circle" alt="">
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>-->
-                    </span>
-                    <h4 class="service-heading">Placemaking</h4>
-                    <p class="text-muted text-left">We love small moments that create a sense of “place”. We exist to help Atlanta become a more vibrant, walkable city and counter car centric attitudes that plague many American communities.</p>
+                    <div class="program-section">
+                        <span class="fa-stack fa-4x">
+                            <img src="img/icons/placemaking.png" class="img-responsive img-circle" alt="">
+                            <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>-->
+                        </span>
+                        <h4>Placemaking</h4>
+                        <p class="text-muted text-left">We love small moments that create a sense of “place”. We exist to help Atlanta become a more vibrant, walkable city and counter car centric attitudes that plague many American communities.</p>
+                    </div>
                 </div>
             </div>
             </br>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/icons/publicart.png" class="img-responsive img-circle" alt="">
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>-->
-                    </span>
-                    <h4 class="service-heading">Public Art</h4>
-                    <p class="text-muted text-left">Very few things do a better job to create a sense of identity and culture than public art. We can mobilize residents to fund local projects that deserve a place in their neighborhoods.</p>
+                    <div class="program-section">
+                        <span class="fa-stack fa-4x">
+                            <img src="img/icons/publicart.png" class="img-responsive img-circle" alt="">
+                            <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>-->
+                        </span>
+                        <h4>Public Art</h4>
+                        <p class="text-muted text-left">Very few things do a better job to create a sense of identity and culture than public art. We can mobilize residents to fund local projects that deserve a place in their neighborhoods.</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/icons/events.png" class="img-responsive img-circle" alt="">
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>-->
-                    </span>
-                    <h4 class="service-heading">Community Events</h4>
-                    <p class="text-muted text-left">A vital cultural metric that presents life in the city. Let’s enable neighborhoods, ethnic groups, and other social communities to start their own fairs, festivals, and other events that celebrate Atlanta’s diversity and who we were as people.</p>
+                    <div class="program-section">
+                        <span class="fa-stack fa-4x">
+                            <img src="img/icons/events.png" class="img-responsive img-circle" alt="">
+                            <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>-->
+                        </span>
+                        <h4>Community Events</h4>
+                        <p class="text-muted text-left">A vital cultural metric that presents life in the city. Let’s enable neighborhoods, ethnic groups, and other social communities to start their own fairs, festivals, and other events that celebrate Atlanta’s diversity and who we were as people.</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/icons/workshops.png" class="img-responsive img-circle" alt="">
-                        <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>-->
-                    </span>
-                    <h4 class="service-heading">Workshops</h4>
-                    <p class="text-muted text-left">Like community events, these activities are a great way for people to interact while they learn new skills that are fun and empowering for all ages. Ex. mobile bike repair workshop, carpentry classes, etc.</p>
+                    <div class="program-section">
+                        <span class="fa-stack fa-4x">
+                            <img src="img/icons/workshops.png" class="img-responsive img-circle" alt="">
+                            <!--<i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>-->
+                        </span>
+                        <h4>Workshops</h4>
+                        <p class="text-muted text-left">Like community events, these activities are a great way for people to interact while they learn new skills that are fun and empowering for all ages. Ex. mobile bike repair workshop, carpentry classes, etc.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -400,98 +314,90 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Board of Directors</h2>
-                    <h3 class="section-subheading text-muted"></h3>
+                    <!--<h3 class="section-subheading text-muted"></h3>-->
                 </div>
             </div>
-            <div class="hero-carousel">
-                <div id="carousel" class="carousel slide" data-ride="carousel">
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <!--Board of Directors Row 1-->
-                        <div class="item active">
-                            <div class="row" style="margin: auto; float: center; display: block;">
-                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 board-carousel">
-                                    <div class="team-member">
-                                        <h4>Sammy Shams</h4>
-                                        <p class="text-muted">Board President</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="https://www.linkedin.com/in/sammyshams"><i class="fa fa-linkedin fa-2x"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 board-carousel">
-                                    <div class="team-member">
-                                        <h4>Holden Spaht</h4>
-                                        <p class="text-muted">Vice President</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="https://www.linkedin.com/in/holdenspaht"><i class="fa fa-linkedin fa-2x"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 board-carousel">
-                                    <div class="team-member">
-                                        <h4>Sarthak Dhingra</h4>
-                                        <p class="text-muted">Treasurer</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="https://www.linkedin.com/in/dhingrasarthak"><i class="fa fa-linkedin fa-2x"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 board-carousel">
-                                    <div class="team-member">
-                                        <h4>Gaby Melendez</h4>
-                                        <p class="text-muted">Secretary</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="https://www.linkedin.com/in/gabriella-alessandra-melendez-a065a322"><i class="fa fa-linkedin fa-2x"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 board-carousel">
-                                    <div class="team-member">
-                                        <h4>Hayley Smith</h4>
-                                        <p class="text-muted">Board Member</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="https://www.linkedin.com/in/hayley-smith-131b1a33"><i class="fa fa-linkedin fa-2x"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 board-carousel">
-                                    <div class="team-member">
-                                        <h4>Laura Quade</h4>
-                                        <p class="text-muted">Board Member</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="https://www.linkedin.com/in/laura-quade-28519179"><i class="fa fa-linkedin fa-2x"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 board-carousel">
-                                    <div class="team-member">
-                                        <h4>Daniel Snider</h4>
-                                        <p class="text-muted">Board Member</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="https://www.linkedin.com/in/sniderde"><i class="fa fa-linkedin fa-2x"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 board-carousel">
-                                    <div class="team-member">
-                                        <h4>David Moore</h4>
-                                        <p class="text-muted">Board Member</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="https://www.linkedin.com/in/david-moore-90b87633/"><i class="fa fa-linkedin fa-2x"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+            <!--Board of Directors Row 1-->
+            <div class="item active">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="team-member">
+                            <h4>Sammy Shams</h4>
+                            <p class="text-muted">Board President</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.linkedin.com/in/sammyshams"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="team-member">
+                            <h4>Holden Spaht</h4>
+                            <p class="text-muted">Vice President</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.linkedin.com/in/holdenspaht"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="team-member">
+                            <h4>Sarthak Dhingra</h4>
+                            <p class="text-muted">Treasurer</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.linkedin.com/in/dhingrasarthak"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="team-member">
+                            <h4>Gaby Melendez</h4>
+                            <p class="text-muted">Secretary</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.linkedin.com/in/gabriella-alessandra-melendez-a065a322"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="team-member">
+                            <h4>Hayley Smith</h4>
+                            <p class="text-muted">Board Member</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.linkedin.com/in/hayley-smith-131b1a33"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="team-member">
+                            <h4>Laura Quade</h4>
+                            <p class="text-muted">Board Member</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.linkedin.com/in/laura-quade-28519179"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="team-member">
+                            <h4>Daniel Snider</h4>
+                            <p class="text-muted">Board Member</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.linkedin.com/in/sniderde"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+                        <div class="team-member">
+                            <h4>David Moore</h4>
+                            <p class="text-muted">Board Member</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.linkedin.com/in/david-moore-90b87633/"><i class="fa fa-linkedin fa-2x"></i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -503,8 +409,8 @@
                     <h2 class="section-heading">Advisory Board</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-xs-4 col-md-4">   
+            <div class="row justify-content-md-center">
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">   
                     <div class="team-member">
                         <h4>Devin Lee</h4>
                         <p class="text-muted">Nine Labs</p>
@@ -514,7 +420,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-4 col-md-4"> 
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4"> 
                     <div class="team-member">
                         <h4>Jiho Choi</h4>
                         <p class="text-muted">Georgia Tech</p>
@@ -524,7 +430,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-4 col-md-4">   
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">   
                     <div class="team-member">
                         <h4>Christina Gibson</h4>
                         <p class="text-muted">Trees Atlanta</p>
@@ -545,7 +451,7 @@
                 <div class="col-lg-12 text-center">
                     <div class="section-heading">
                         <h2>A Platform to Unlock Your Neighborhood's Future</h2>
-                        <p class="text-muted">Made with Love 4 ATL & facilitated by The Pillyr Foundation.</p>
+                        <p class="text-muted">Made with Love 4 ATL & facilitated by The Pillyr Foundation. Coming soon this summer.</p>
                         <hr>
                     </div>
                 </div>
@@ -557,7 +463,8 @@
                             <div class="device">
                                 <div class="screen">
                                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt=""> </div>
+                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
+                                </div>
                                 <div class="button">
                                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                                 </div>
@@ -651,8 +558,8 @@
     <section class="cta">
         <div class="cta-content">
             <div class="container">
-                <h2>Stop waiting.<br>Start building.</h2>
-                <a href="#contact" class="btn btn-outline btn-xl page-scroll">Get Involved</a>
+                <h2 style="font-size: 72px;">Stop waiting. Start Planning.</h2>
+                <a href="#contact" class="btn btn-outline btn-xl page-scroll">Join The Waitlist</a>
             </div>
         </div>
         <div class="overlay"></div>
@@ -668,16 +575,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3 text-center contact-button">
+                <div class="col-xs-12 col-md-3 text-center contact-button">
                     <a href="#contactModal1" class="btn btn-outline btn-xl portfolio-link" data-toggle="modal">General Questions</a>
                 </div>
-                <div class="col-sm-3 text-center contact-button">
+                <div class="col-xs-12 col-md-3 text-center contact-button">
                     <a href="#contactModal2" class="btn btn-outline btn-xl portfolio-link" data-toggle="modal">Press Inquiries</a>
                 </div>
-                <div class="col-sm-3 text-center contact-button">
+                <div class="col-xs-12 col-md-3 text-center contact-button">
                     <a href="#contactModal3" class="btn btn-outline btn-xl portfolio-link" data-toggle="modal">Partnerships</a>
                 </div>
-                <div class="col-sm-3 text-center contact-button">
+                <div class="col-xs-12 col-md-3 text-center contact-button">
                     <a href="#contactModal4" class="btn btn-outline btn-xl portfolio-link" data-toggle="modal">Platform Support</a>
                 </div>
             </div>
@@ -698,51 +605,40 @@
             <div id="carousel" class="carousel slide" data-ride="carousel">
 
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox" style="background-color: #fff;">
+                <div class="carousel-inner partner-style" role="listbox">
                     <div class="item active">
-                        <div class="row" style="margin: auto; float: center; display: block;">
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
-                                <img src="img/logos/creative-market.jpg" class="img-responsive img-centered">         
-                            </div> 
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
-                                <img src="img/logos/envato.jpg" class="img-responsive img-centered">         
-                            </div>
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
-                                <img src="img/logos/designmodo.jpg" class="img-responsive img-centered">         
-                            </div>
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
-                                <img src="img/logos/themeforest.jpg" class="img-responsive img-centered">         
-                            </div>
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
-                                <img src="img/logos/designmodo.jpg" class="img-responsive img-centered">         
-                            </div>
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
-                                <img src="img/logos/themeforest.jpg" class="img-responsive img-centered">         
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-3 partner-icon">
+                                    <img src="img/partners/lw.png" class="img-responsive img-centered">         
+                                </div> 
+                                <div class="col-xs-12 col-md-3 partner-icon">
+                                    <img src="img/partners/asa.png" class="img-responsive img-centered">         
+                                </div>
+                                <div class="col-xs-12 col-md-3 partner-icon">
+                                    <img src="img/partners/abc.png" class="img-responsive img-centered">         
+                                </div>
+                                <div class="col-xs-12 col-md-3 partner-icon">
+                                    <img src="img/partners/wlb.png" class="img-responsive img-centered">         
                             </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <!--<div class="item">
                         <div class="row" style="margin: auto; float: center; display: block;">
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
+                            <div class="col-sm-3 partner-icon">
                                 <img src="img/logos/envato.jpg" class="img-responsive img-centered">         
                             </div>
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
+                            <div class="col-sm-3 partner-icon">
                                 <img src="img/logos/designmodo.jpg" class="img-responsive img-centered">         
                             </div>
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
+                            <div class="col-sm-3 partner-icon">
                                 <img src="img/logos/themeforest.jpg" class="img-responsive img-centered">         
                             </div>
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
+                            <div class="col-sm-3 partner-icon">
                                 <img src="img/logos/creative-market.jpg" class="img-responsive img-centered">         
                             </div>
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
-                                <img src="img/logos/themeforest.jpg" class="img-responsive img-centered">         
-                            </div>
-                            <div class="col-sm-2 partner-icon" style="background-color: #fff;">
-                                <img src="img/logos/creative-market.jpg" class="img-responsive img-centered">         
-                            </div>  
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -764,9 +660,14 @@
                 <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
                 </li>
             </ul>
+            <div class="row">
+                <div class="col-md-12 disclaimer">
+                    <h5>Our incorporation as a non-profit in the State of Georgia is coming summer 2017.  Stay tuned.</h5>
+                </div>
+            </div>
         </div>
         </br>
-        <hr style="margin-bottom: 40px; border-color: rgba(255, 255, 255, 0.3);">
+        <hr class="hr-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -831,10 +732,10 @@
                         </div>
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <p>Mark your calendar! On June 11th, The Pillyr Foundation will be joining Atlanta Streets Alive's Westside route as an activity partner with our first tactical urbanism intervention, dubbed Operation Pit Stop. This pop-up will include a "Bike Bar" (refreshments served by King of Pops), bike racks, a library deck, seating deck, auxiliary deck for various activities, and a temporary, artistic crosswalk.
+                                <p>On June 11th of 2017, The Pillyr Foundation joined Atlanta Streets Alive's Westside route as an activity partner with our first tactical urbanism intervention, dubbed Operation Pit Stop. At a length of 50ft, this pop-up project activated an industrial corridor along Marietta St NW with public space.  
                                 </p>
-                                <p>
-                                Beyond the activities available at this location to attendees of Atlanta Streets Alive, this project aims to highlight West Marietta Street's dangerous road conditions, the need for a safe crosswalk (close to a mile stretch without one along this street), and advocating for new public space that could bring life to this part of town.
+                                <p>                                
+                                The build included deck space, a standing bar, a variety of seats and benches, a small performance stage (activated by spoken word artists), trees and plants that brought life and color to the site, and finally the Pillyr "Bike Bar", which is designed for cyclists to dock and enjoy refreshments from the comfort of their saddle.  King of Pops was recruited to run the bar.
                                 </p>
                             </div>
                         </div>    
@@ -860,10 +761,43 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <p>
-                                Join us on June 11th to support our efforts to deliver good urbanism projects to Atlanta's neighborhoods and public spaces! Look forward to seeing you there!
+                                A final addition to the project was a temporary, artistic crosswalk that provided the public a canvas to add their own art to the street. The location was selected due to the lack of crosswalks, public space, and due to vehicular traffic treating this city road like a freeway.
                                 </p>
                                 <p><strong>Check out our facebook event to see more photos from the project!</strong></p>
                                 <a href="https://www.facebook.com/events/402515040123537">Facebook Event Photos</a>
+                                <hr class="hr-standard">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Portfolio Modal - 002 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project 002</h2>
+                                <h3><strong>Mobility &nbsp;&nbsp;|&nbsp;&nbsp; Summer 2017</strong></h3>
+                                <p class="item-intro text-muted">Location TBA</p>
+                            </div>
+                        </div>  
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <p>Check out an early&nbsp;<a href="https://www.youtube.com/watch?v=ZxibuL0o_zs">video</a>&nbsp;for the prototype of the upcoming project!</p>
                                 <hr class="hr-standard">
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -889,7 +823,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>General Inquiries</h2>
-                                <hr style="margin-bottom: 40px;">
+                                <hr class="hr-standard">
                                 <form name="sentMessage" id="contactForm" novalidate>
                                     <div class="row">
                                         <div class="col-md-6">
@@ -912,7 +846,7 @@
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                             <div class="form-group">
-                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message." style="min-height: 98px;"></textarea>
+                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                         </div>
@@ -946,7 +880,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Press Inquiry</h2>
-                                <hr style="margin-bottom: 40px;">
+                                <hr class="hr-standard">
                                 <form name="sentMessage" id="contactForm" novalidate>
                                     <div class="row">
                                         <div class="col-md-6">
@@ -969,7 +903,7 @@
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                             <div class="form-group">
-                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message." style="min-height: 98px;"></textarea>
+                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                         </div>
@@ -1003,7 +937,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Partnerships</h2>
-                                <hr style="margin-bottom: 40px;">
+                                <hr class="hr-standard">
                                 <form name="sentMessage" id="contactForm" novalidate>
                                     <div class="row">
                                         <div class="col-md-6">
@@ -1026,7 +960,7 @@
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                             <div class="form-group">
-                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message." style="min-height: 98px;"></textarea>
+                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                         </div>
@@ -1061,7 +995,7 @@
                             <div class="modal-body">
                                 <h2>Platform Support</h2>
                                 <p class="item-intro text-muted">Please include your username, project name, and any helpful information related to your issue.</p>
-                                <hr style="margin-bottom: 40px;">
+                                <hr class="hr-standard">
                                 <form name="sentMessage" id="contactForm" novalidate>
                                     <div class="row">
                                         <div class="col-md-6">
@@ -1084,7 +1018,7 @@
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                             <div class="form-group">
-                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message." style="min-height: 98px;"></textarea>
+                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                         </div>
@@ -1119,7 +1053,7 @@
                             <div class="modal-body">
                                 <h2>Donation</h2>
                                 <p class="item-intro text-muted">Please include your username, project name, and any helpful information related to your issue.</p>
-                                <hr style="margin-bottom: 40px;">
+                                <hr class="hr-standard">
                                 <form name="sentMessage" id="contactForm" novalidate>
                                     <div class="row">
                                         <div class="col-md-6">
@@ -1142,7 +1076,7 @@
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                             <div class="form-group">
-                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message." style="min-height: 98px;"></textarea>
+                                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                                 <p class="help-block text-danger"></p>
                                             </div>
                                         </div>
