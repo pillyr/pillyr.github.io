@@ -1372,3 +1372,11 @@ content: "";
   background-color: #fdcc52;
   border-color: #fdcc52;
 }
+
+.popover {
+  color: #222222;
+}
+
+.popover-title {
+  font-weight: 700;
+}
