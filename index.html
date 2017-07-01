@@ -37,6 +37,36 @@
     <![endif]-->
     
     <style>
+
+    .slide-1 {
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      background-position: center;
+      background-image: url('img/portfolio/operationpitstop/image2.jpg');
+      text-align: left;
+    }
+
+    .slide-2 {
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      background-position: center;
+      background-image: url('img/graffiti.png');
+      text-align: left;
+    }
+
+    .slide-3 {
+        background: url("img/citypattern.png"), #00B5AD;
+        /* fallback for old browsers */
+        background: url("img/citypattern.png"), -webkit-linear-gradient(to left, #00B5AD, #f76e73);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: url("img/citypattern.png"), linear-gradient(to left, #00B5AD, #f76e73);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
     </style>
 
 </head>
@@ -84,44 +114,106 @@
     </nav>
 
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="header-content">
-                        <div class="header-content-inner">
-                            <h1 class="hero-h1">Atlanta's future is in our hands. Join us in making our city's neighborhoods more livable for all. Coming <strong>Summer 2017.</strong></h1>
-                            <a href="#download" class="btn btn-outline btn-xl page-scroll">Join our Mailing List</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device">
-                                <div class="screen">
-                                <!--Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else!-->
-                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
-                                </div>
-                                <div class="button">
-                                <!--You can hook the "home button" to some JavaScript events or just remove it-->
+            <div id="Hero-Carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#Hero-Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Hero-Carousel" data-slide-to="1"></li>
+                    <li data-target="#Hero-Carousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="slide-1">
+                            <div class="container mobile-width">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="header-content">
+                                            <div class="header-content-inner">
+                                                <h1 class="hero-margin"><strong>Our mission:</strong> To deliver good urbanism projects to Atlanta's neighborhoods and public spaces.</strong></h1>
+                                                <a href="#" class="btn btn-outline btn-xl page-scroll">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="item">
+                        <div class="slide-2">
+                            <div class="container mobile-width">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="header-content">
+                                            <div class="header-content-inner">
+                                                <h1 class="hero-margin"><strong>Atlanta's future is in our hands.</strong> <br class="rwd-break">Join us in making our city's neighborhoods more livable for all.</h1>
+                                                <a href="#download" class="btn btn-outline btn-xl page-scroll">Join our Mailing List</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="slide-3">
+                            <div class="container mobile-width">
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <div class="header-content">
+                                            <div class="header-content-inner">
+                                                <h1 class="hero-h1"><strong>The Pillyr Platform.</strong> Hyperlocal crowdfunding to improve our neighborhoods together. Coming <strong>Summer 2017.</strong></h1>
+                                                <a href="#download" class="btn btn-outline btn-xl page-scroll">Waitlist Registration</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="device-container">
+                                            <div class="device-mockup iphone6_plus portrait white">
+                                                <div class="device">
+                                                    <div class="screen">
+                                                    <!--Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else!-->
+                                                        <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
+                                                    </div>
+                                                    <div class="button">
+                                                    <!--You can hook the "home button" to some JavaScript events or just remove it-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#Hero-Carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#Hero-Carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-        </div>
     </header>
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
     <!-- Projects Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
-            <div class="row">
+            <!--<div class="row">
                 <div class="col-lg-12 text-center">
                     <h3 class="display-3" style="margin-bottom: 100px;"><strong>The Pillyr Foundation</strong><em> is committed to deliver good urbanism projects to Atlanta's neighborhoods and public spaces."</em></h3>
                     <hr class="hr-standard">
                 </div>
-            </div>
+            </div>-->
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Projects & Campaigns</h2>
@@ -137,7 +229,7 @@
                                 <i class="glyphicon glyphicon-fullscreen fa-2x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/operationpitstop/image2.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/operationpitstop/pic.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Project 001 - Operation Pit Stop</h4>
@@ -175,7 +267,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="program-section">
                         <span class="fa-stack fa-4x">
                             <img src="img/icons/horticulture.png" class="img-responsive img-circle" alt="">
@@ -186,7 +278,7 @@
                         <p class="text-muted text-left">Beyond community gardens, urban farms, and farmers markets, we propose adding vertical wall gardens to the mix for development across Atlanta's neighborhoods.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="program-section">
                         <span class="fa-stack fa-4x">
                             <img src="img/icons/mobility.png" class="img-responsive img-circle" alt="">
@@ -197,7 +289,7 @@
                         <p class="text-muted text-left">It is in the city’s best interests to support alternative mobility that encourages cycling and usage of public transit services. Our role is to provide small “amenities” to these networks and improve the experience and safety for all.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="program-section">
                         <span class="fa-stack fa-4x">
                             <img src="img/icons/placemaking.png" class="img-responsive img-circle" alt="">
@@ -209,7 +301,7 @@
                     </div>
                 </div>
                 </br>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="program-section">
                         <span class="fa-stack fa-4x">
                             <img src="img/icons/publicart.png" class="img-responsive img-circle" alt="">
@@ -220,7 +312,7 @@
                         <p class="text-muted text-left">Very few things do a better job to create a sense of identity and culture than public art. We can mobilize residents to fund local projects that deserve a place in their neighborhoods.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="program-section">
                         <span class="fa-stack fa-4x">
                             <img src="img/icons/events.png" class="img-responsive img-circle" alt="">
@@ -231,7 +323,7 @@
                         <p class="text-muted text-left">A vital cultural metric that presents life in the city. Let’s enable neighborhoods, ethnic groups, and other social communities to start their own fairs, festivals, and other events that celebrate Atlanta’s diversity and who we were as people.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="program-section">
                         <span class="fa-stack fa-4x">
                             <img src="img/icons/workshops.png" class="img-responsive img-circle" alt="">
@@ -257,7 +349,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-3">
                     <div class="team-member">
                         <img src="img/team/daniel.jpg" class="img-responsive img-circle" alt="">
                         <h4>Daniel Snider</h4>
@@ -268,7 +360,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-3">
                     <div class="team-member">
                         <img src="img/team/gaby.jpg" class="img-responsive img-circle" alt="">
                         <h4>Gaby Melendez</h4>
@@ -279,7 +371,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-3">
                     <div class="team-member">
                         <img src="img/team/jiho.jpg" class="img-responsive img-circle" alt="">
                         <h4>Jiho Choi</h4>
@@ -290,7 +382,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-xs-12 col-sm-3">
                     <div class="team-member">
                         <img src="img/team/sammy.jpg" class="img-responsive img-circle" alt="">
                         <h4>Sammy Shams</h4>
@@ -408,7 +500,7 @@
                 </div>
             </div>
             <div class="row justify-content-md-center">
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">   
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">   
                     <div class="team-member">
                         <h4>Devin Lee</h4>
                         <p class="text-muted">Nine Labs</p>
@@ -418,7 +510,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4"> 
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"> 
                     <div class="team-member">
                         <h4>Jiho Choi</h4>
                         <p class="text-muted">Georgia Tech</p>
@@ -428,12 +520,22 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">   
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">   
                     <div class="team-member">
                         <h4>Christina Gibson</h4>
                         <p class="text-muted">Trees Atlanta</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="https://www.linkedin.com/in/christina-gibson-59577551"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">   
+                    <div class="team-member">
+                        <h4>Todd Bemis</h4>
+                        <p class="text-muted">Grizzard Comm</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.linkedin.com/in/toddbemis"><i class="fa fa-linkedin fa-2x"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -484,14 +586,14 @@
                 <div class="col-md-8">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-sm-6 col-md-6">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-screen-smartphone text-primary"></i>
                                     <h3>Mobile Responsive</h3>
                                     <p class="text-muted">Designed to fit your mobile device for a better user experience.</p>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-6">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-location-pin text-primary"></i>
                                     <h3>Local Impact</h3>
@@ -500,14 +602,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6 col-md-6">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-graph text-primary"></i>
                                     <h3>Analytics</h3>
                                     <p class="text-muted">Link your campaign with your Google Analytics acccount to gain insights of user activity on your project page.</p>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-6">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-lock text-primary"></i>
                                     <h3>Secured Site</h3>
@@ -516,14 +618,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6 col-md-6">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-user text-primary"></i>
                                     <h3>Guest Donations</h3>
                                     <p class="text-muted">The freedom is yours to make a donation without signing up for an account. You can even do it anonymously!</p>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-6">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-star text-primary"></i>
                                     <h3>Website Widget</h3>
@@ -532,14 +634,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6 col-md-6">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-layers text-primary"></i>
                                     <h3>Knowledge Base</h3>
                                     <p class="text-muted">A robust resource that can answer most questions about potential projects within the Atlanta city limits.</p>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-6">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="feature-item">
                                     <i class="icon-list text-primary"></i>
                                     <h3>Project Management</h3>
@@ -555,8 +657,8 @@
     <!-- CTA Section -->
     <section class="cta">
         <div class="cta-content">
-            <div class="container">
-                <h2 style="font-size: 72px;">Stop waiting. Start Planning.</h2>
+            <div class="container mobile-width">
+                <h2>Stop waiting. <br>Start Planning.</h2>
                 <a href="#contact" class="btn btn-outline btn-xl page-scroll">Join The Waitlist</a>
             </div>
         </div>
@@ -595,7 +697,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Community Partners</h2>
-                    <h3 class="section-subheading text-muted"></h3>
+                    <h3 class="section-subheading text-muted">Local small businesses and nonprofits both past and present.</h3>
                 </div>
             </div>
         </div>
@@ -617,26 +719,29 @@
                                     <img src="img/partners/abc.png" class="img-responsive img-centered">         
                                 </div>
                                 <div class="col-xs-12 col-md-3 partner-icon">
-                                    <img src="img/partners/wlb.png" class="img-responsive img-centered">         
+                                    <img src="img/partners/wlb.png" class="img-responsive img-centered">
+                                </div>         
                             </div>
                         </div>
                     </div>
-                    <!--<div class="item">
-                        <div class="row" style="margin: auto; float: center; display: block;">
-                            <div class="col-sm-3 partner-icon">
-                                <img src="img/logos/envato.jpg" class="img-responsive img-centered">         
-                            </div>
-                            <div class="col-sm-3 partner-icon">
-                                <img src="img/logos/designmodo.jpg" class="img-responsive img-centered">         
-                            </div>
-                            <div class="col-sm-3 partner-icon">
-                                <img src="img/logos/themeforest.jpg" class="img-responsive img-centered">         
-                            </div>
-                            <div class="col-sm-3 partner-icon">
-                                <img src="img/logos/creative-market.jpg" class="img-responsive img-centered">         
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-3 partner-icon">
+                                    <img src="img/partners/connelly.png" class="img-responsive img-centered">         
+                                </div> 
+                                <div class="col-xs-12 col-md-3 partner-icon">
+                                    <img src="img/partners/argha.png" class="img-responsive img-centered">         
+                                </div>
+                                <div class="col-xs-12 col-md-3 partner-icon">
+                                    <img src="img/partners/kop.png" class="img-responsive img-centered">         
+                                </div>
+                                <div class="col-xs-12 col-md-3 partner-icon">
+                                    <img src="img/partners/wlb.png" class="img-responsive img-centered">
+                                </div>         
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
