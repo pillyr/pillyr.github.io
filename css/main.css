@@ -257,7 +257,6 @@ header .device-container .screen img {
   header .header-content .header-content-inner {
     max-width: none;
     margin: 0;
-    position: absolute;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -278,7 +277,6 @@ header .device-container .screen img {
   header .header-content .header-content-inner {
     max-width: none;
     margin: 0;
-    position: absolute;
     top: 40%;
     transform: translateY(-40%);
   }
@@ -1212,7 +1210,6 @@ header {
     header .header-content .header-content-inner {
         max-width: none;
         margin: 0;
-        position: absolute;
         top: 40%;
         transform: translateY(-40%);
         text-align: center;
@@ -1252,7 +1249,6 @@ header {
     header .header-content .header-content-inner {
         max-width: none;
         margin: 0;
-        position: absolute;
         top: 40%;
         transform: translateY(-40%);
         text-align: center;
@@ -1299,7 +1295,7 @@ content: "";
     display: none;
   }
   .hero-margin {
-    margin-bottom: 300px !important;
+    margin-bottom: 250px !important;
   }
 }
 
