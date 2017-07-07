@@ -310,6 +310,7 @@ section h2 {
 
 .hero-h1 {
   max-width: 550px;
+  margin: 0 auto 30px;
 }
 
 .hero-carousel {
@@ -330,6 +331,7 @@ section h2 {
   max-width: 500px;
   margin: 0 auto;
 }
+
 .hero-carousel .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 30px;
@@ -380,6 +382,11 @@ section h2 {
   }
 }
 
+@media (min-width: 1200px) {
+  #slide-3 {
+    margin-right: 35px;
+  }
+}
 
 
 /* ----------- Section - Partners ----------- */
